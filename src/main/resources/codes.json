@@ -1,0 +1,453 @@
+{
+    "CODE_800": {
+      "httpStatusCode":200,
+      "statusCode": 800,
+      "status": true,
+      "msg": "Success"
+    },
+    "CODE_850": {
+      "statusCode": 850,
+      "status": false,
+      "msg": "Session Timeout "
+    },
+    "CODE_851": {
+      "httpStatusCode":200,
+      "statusCode": 851,
+      "status": true,
+      "msg": "Null or Empty Response"
+    },
+   
+    "CODE_900": {
+      "statusCode": 900,
+      "status": true,
+      "msg": "Redis data found Successfully"
+    },
+    "CODE_901": {
+      "statusCode": 901,
+      "status": true,
+      "msg": "Redis data Put Successfully"
+    },
+    "CODE_902": {
+      "statusCode": 902,
+      "status": true,
+      "msg": "Redis data Removed Successfully"
+    },
+    "CODE_910": {
+      "statusCode": 910,
+      "status": false,
+      "msg": "Session Timeout from Redis"
+    },
+    "CODE_911": {
+      "statusCode": 911,
+      "status": false,
+      "msg": "Session null returned from Redis"
+    },
+    "CODE_920": {
+      "statusCode": 920,
+      "status": true,
+      "msg": "Cassandra data found Successfully"
+    },
+    "CODE_930": {
+      "statusCode": 930,
+      "status": false,
+      "msg": "Session Timeout from Cassandra"
+    },
+    "CODE_931": {
+      "statusCode": 931,
+      "status": false,
+      "msg": "Session null returned from Cassandra"
+    },
+    "CODE_940": {
+      "statusCode": 940,
+      "status": true,
+      "msg": "ElasticSearch data found Successfully"
+    },
+    "CODE_950": {
+      "statusCode": 950,
+      "status": false,
+      "msg": "Session Timeout from ElasticSearch"
+    },
+    "CODE_951": {
+      "statusCode": 951,
+      "status": false,
+      "msg": "Session null return from ElasticSearch"
+    },
+   
+    "CODE_960": {
+      "statusCode": 960,
+      "status": true,
+      "msg": "DEEP data found Successfully"
+    },
+    "CODE_970": {
+      "statusCode": 970,
+      "status": false,
+      "msg": "DEEP Session Timeout"
+    },
+    "CODE_971": {
+      "statusCode": 971,
+      "status": false,
+      "msg": "Session null return from DEEP"
+    },
+    "CODE_972": {
+      "statusCode": 972,
+      "status": false,
+      "msg": "DEEP USER_INVALID_LOGIN_DETAILS OR PASSWORD"
+    },
+    "CODE_1000": {
+      "statusCode": 1000,
+      "status": true,
+      "msg": "USER Session Created"
+    },
+    "CODE_1010": {
+      "statusCode": 1010,
+      "status": true,
+      "msg": "USER Logout"
+    },
+    "CODE_1011": {
+      "statusCode": 1011,
+      "status": true,
+      "msg": "USER Already Logout"
+    },
+    "CODE_1020": {
+      "statusCode": 1020,
+      "status": true,
+      "msg": "USER Registered in deep"
+    },
+    "CODE_1030": {
+      "statusCode": 1030,
+      "status": true,
+      "msg": "USER Successfully Created in brightlab"
+    },
+    "CODE_1031": {
+      "statusCode": 1031,
+      "status": true,
+      "msg": "Role Created in brightlab"
+    },
+    "CODE_1032": {
+      "statusCode": 1032,
+      "status": true,
+      "msg": "USER and Role Created in brightlab"
+    },
+    "CODE_1033": {
+      "statusCode": 1033,
+      "status": true,
+      "msg": "GroupOrgLabPolicycreated for user in brightlab"
+    },
+    "CODE_1034": {
+      "statusCode": 1034,
+      "status": true,
+      "msg": "Mail Sent Successfully brightlab"
+    },
+    "CODE_1035": {
+      "statusCode": 1035,
+      "status": true,
+      "msg": "Access Token generated Successfully in  brightlab"
+    },
+    "CODE_1036": {
+      "statusCode": 1036,
+      "status": true,
+      "msg": "Access Token validated Successfully in  brightlab"
+    },
+    "CODE_1037": {
+      "statusCode": 1037,
+      "status": true,
+      "msg": "Password reset Successfully for brightlab user"
+    },
+    "CODE_1038": {
+      "statusCode": 1038,
+      "status": true,
+      "msg": "profile updated in deep Successfully for brightlab user"
+    },
+    "CODE_1039": {
+      "statusCode": 1039,
+      "status": true,
+      "msg": "AccessToken removed Successfully for brightlab user"
+    },
+    
+    "CODE_1050": {
+      "statusCode": 1050,
+      "status": false,
+      "msg": "User Roles and Group are empty"
+    },
+    "CODE_1051": {
+      "statusCode": 1051,
+      "status": false,
+      "msg": "Mismatch in Session Id for User ... Security breach"
+    },
+    "CODE_1052": {
+      "statusCode": 1052,
+      "status": false,
+      "msg": "Error in Removing User Session"
+    },
+    "CODE_1053": {
+      "statusCode": 1053,
+      "status": false,
+      "msg": "deep register error"
+    },
+    "CODE_1054": {
+      "statusCode": 1054,
+      "status": false,
+      "msg": "User does not exist"
+    },
+    "CODE_1055": {
+      "statusCode": 1055,
+      "status": false,
+      "msg": "For User AccessToken does not exist"
+    },
+    "CODE_1056": {
+      "statusCode": 1056,
+      "status": false,
+      "msg": "For User AccessToken Mismatch occur"
+    },
+    "CODE_1057": {
+      "statusCode": 1057,
+      "status": false,
+      "msg": "For User AccessToken validation fail"
+    },
+    "CODE_1058": {
+      "statusCode": 1058,
+      "status": false,
+      "msg": "Reset or Change Password failed from deep"
+    },
+    "CODE_1059": {
+      "statusCode": 1059,
+      "status": false,
+      "msg": "USER_ORG_MISMATCH"
+    },
+    "CODE_1060": {
+      "statusCode": 1060,
+      "status": false,
+      "msg": "USER_LAB_MISMATCH"
+    },
+    "CODE_1061": {
+      "statusCode": 1061,
+      "status": false,
+      "msg": "USER creation failed"
+    },
+    "CODE_1062": {
+      "statusCode": 1062,
+      "status": false,
+      "msg": "GroupOrgLabPolicy creation failed"
+    },
+    "CODE_1063": {
+      "statusCode": 1063,
+      "status": false,
+      "msg": "User update profile  failed from deep"
+    },
+    "CODE_1064": {
+      "statusCode": 1063,
+      "status": false,
+      "msg": "User update profile  failed from brightlab"
+    },
+  "CODE_11001": {
+      "httpStatusCode":201,
+      "statusCode": 11001,
+      "status": true,
+      "msg": "Item added to Cart successfully"
+    },
+  "CODE_11012": {
+      "httpStatusCode":200,
+      "statusCode": 11012,
+      "status": true,
+      "msg": "Cart submitted successfully"
+    },
+  "CODE_11014": {
+      "httpStatusCode":204,
+      "statusCode": 11014,
+      "status": true,
+      "msg": "Address updated successfully"
+    },    
+  "CODE_11016": {
+      "httpStatusCode":204,
+      "statusCode": 11016,
+      "status": true,
+      "msg": "Cart Patch updated successfully"
+    },  
+    "CODE_11018": {
+      "httpStatusCode":401,
+      "statusCode": 11018,
+      "status": true,
+      "msg": "Unable to submit cart"
+    },  
+    "CODE_10200": {
+      "httpStatusCode":200,
+      "statusCode": 10200,
+      "status": true,
+      "msg": "Success"
+    },  
+    "CODE_10202": {
+      "httpStatusCode":202,
+      "statusCode": 10202,
+      "status": true,
+      "msg": "Deleted successfully"
+    },  
+    "CODE_10204": {
+      "httpStatusCode":204,
+      "statusCode": 10204,
+      "status": true,
+      "msg": "Updated successfully"
+    },  
+    "CODE_10201": {
+      "httpStatusCode":201,
+      "statusCode": 10201,
+      "status": true,
+      "msg": "Created"
+    },  
+    "CODE_10400": {
+      "httpStatusCode":400,
+      "statusCode": 10400,
+      "status": true,
+      "msg": "Bad Request"
+    },  
+    "CODE_10401": {
+      "httpStatusCode":401,
+      "statusCode": 10401,
+      "status": true,
+      "msg": "Unauthorized"
+    },  
+    "CODE_10403": {
+      "httpStatusCode":403,
+      "statusCode": 10403,
+      "status": true,
+      "msg": "Forbidden"
+    },  
+    "CODE_10404": {
+      "httpStatusCode":404,
+      "statusCode": 10404,
+      "status": true,
+      "msg": "Not Found"
+    },  
+    "CODE_10405": {
+      "httpStatusCode":405,
+      "statusCode": 10405,
+      "status": true,
+      "msg": "Method not allowed"
+    },  
+    "CODE_10406": {
+      "httpStatusCode":406,
+      "statusCode": 10406,
+      "status": true,
+      "msg": "Not acceptable"
+    },  
+    "CODE_10409": {
+      "httpStatusCode":409,
+      "statusCode": 10409,
+      "status": true,
+      "msg": "Conflict"
+    },  
+    "CODE_10410": {
+      "httpStatusCode":410,
+      "statusCode": 10410,
+      "status": true,
+      "msg": "Gone"
+    },  
+    "CODE_10415": {
+      "httpStatusCode":415,
+      "statusCode": 10415,
+      "status": true,
+      "msg": "Unsupported media type"
+    },  
+    "CODE_10429": {
+      "httpStatusCode":429,
+      "statusCode": 10429,
+      "status": true,
+      "msg": "Too many request"
+    },  
+    "CODE_10422": {
+      "httpStatusCode":422,
+      "statusCode": 10422,
+      "status": true,
+      "msg": "Unprocessable entity"
+    },  
+    "CODE_10500": {
+      "httpStatusCode":500,
+      "statusCode": 10500,
+      "status": true,
+      "msg": "Internal server error"
+    },
+	"CODE_10020": {
+		"httpStatusCode": 400,
+		"statusCode": 10020,
+		"status": false,
+		"msg": "OrgId can not be null"
+	},
+	"CODE_10021": {
+		"httpStatusCode": 400,
+		"statusCode": 10021,
+		"status": false,
+		"msg": "LabId can not be null"
+	},
+	"CODE_10022": {
+		"httpStatusCode": 400,
+		"statusCode": 10022,
+		"status": false,
+		"msg": "UserId can not be null"
+	},
+	"CODE_10023": {
+		"httpStatusCode": 400,
+		"statusCode": 10023,
+		"status": false,
+		"msg": "TenantId can not be null"
+	},
+	"CODE_10024": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "productId can not be null"
+	},
+	"CODE_10025": {
+		"httpStatusCode": 400,
+		"statusCode": 10025,
+		"status": false,
+		"msg": "field can not be null,field can be productName,catalog,reqByUserId,packsize and costCenter"
+	},
+	"CODE_10026": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "Product Name can not be null"
+	},
+	"CODE_10027": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "Catalog can not be null"
+	},
+	"CODE_10028": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "Product Unit can not be null"
+	},
+	"CODE_10029": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "Manufacturer can not be null"
+	},
+	"CODE_10030": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "Quantity must be greater than 0"
+	},
+	"CODE_10031": {
+		"httpStatusCode": 400,
+		"statusCode": 10024,
+		"status": false,
+		"msg": "Count must be greater than 0"
+	},
+  	"CODE_10043": {
+      "httpStatusCode":404,
+      "statusCode": 10043,
+      "status": true,
+      "msg": "lab-owner-logon-id Can not be null"
+    },
+    "CODE_10044": {
+      "httpStatusCode":404,
+      "statusCode": 10044,
+      "status": true,
+      "msg": "User not affiliated"
+    }
+ }
+  
